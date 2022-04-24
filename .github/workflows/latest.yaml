@@ -47,3 +47,4 @@ jobs:
           name: latest
           bodyFile: Up-to-date release of main branch. Only use for testing purposes!
           token: ${{ secrets.GITHUB_TOKEN }}
+          tag: main
