@@ -42,7 +42,7 @@ jobs:
       - name: Upload mod package to release
         uses: ncipollo/release-action@v1
         with:
-          artifacts: TeammateRevive-latest.zip
+          bodyFile: TeammateRevive-latest.zip
           allowUpdates: true
           name: latest
           body: Up-to-date release of main branch. Only use for testing purposes!
