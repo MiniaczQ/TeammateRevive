@@ -8,7 +8,7 @@ on:
 
 jobs:
   # Build on Linux because it's faster and .NET is cross-platform
-  release-linux:
+  version-release:
     runs-on: ubuntu-latest
 
     steps:
