@@ -47,4 +47,5 @@ jobs:
           asset_name: TeammateRevive-latest.zip
           tag: ${{ github.ref }}
           release_name: latest
+          body: Up-to-date release of main branch. Only use for testing purposes!
           overwrite: true
