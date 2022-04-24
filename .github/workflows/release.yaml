@@ -1,4 +1,4 @@
-name: release
+name: version-release
 
 # Triggers on every pushed tag
 on:
