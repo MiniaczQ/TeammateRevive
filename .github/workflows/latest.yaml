@@ -45,5 +45,5 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: mod.zip
           asset_name: TeammateRevive-latest.zip
-          tag: ${{ github.ref }}
+          tag: latest
           overwrite: true
