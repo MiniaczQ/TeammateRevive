@@ -44,8 +44,8 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: mod.zip
-          asset_name: TeammateRevive-latest.zip
           tag: ${{ github.ref }}
+          overwrite: true
+          asset_name: TeammateRevive-latest.zip
           release_name: latest
           body: Up-to-date release of main branch. Only use for testing purposes!
-          overwrite: true
